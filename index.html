@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy League Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="league-info">
+        <h1>LEAGUE OF GOATS</h1>
+        
+        <h2>League Champion: Trusch</h2>
+        <section id="headshot">
+            <img src="truschell_crown.jpg" 
+              alt="My Headshot">
+        </section>
+
+        <p id="loading">Loading standings...</p>
+    </section>
+
+    <hr>
+
+    <section id="standings">
+        <h2>Standings</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team</th>
+                    <th>Wins</th>
+                    <th>Losses</th>
+                    <th>Points</th>
+                </tr>
+            </thead>
+            <tbody id="standings-body"></tbody>
+        </table>
+    </section>
+
+    <section id="top-performers">
+        <h2>Top Performers</h2>
+        <!-- Top performers will be inserted here dynamically -->
+    </section>
+
+    <section id="rosters">
+        <h2>Team Rosters</h2>
+        <!-- Team rosters will be inserted here dynamically -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

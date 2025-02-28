@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgba(203, 38, 38, 0.216), white);
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#loading {
+    font-size: 18px;
+    color: #666;
+}
+
+#headshot img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid gold;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: whitesmoke;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+th:hover {
+    background: #555;
+}
+
+th[data-sort] {
+    cursor: pointer;
+    position: relative;
+}
+
+th[data-sort]:hover {
+    background-color: #f0f0f0;
+}
+
+th.sort-asc, th.sort-desc {
+    background-color: #e6e6e6;
+}
+
+.sort-icon {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Champion Highlight */
+.champion {
+    background-color: gold !important;
+    font-weight: bold;
+}
+
+
+/* Roster Styles */
+.roster-container {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+    background: white;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.roster-container h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.roster-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.roster-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.roster-table th, .roster-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.roster-table th {
+    background: #444;
+    color: white;
+    cursor: pointer;
+}
+
+.roster-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+/* Filter Input */
+.filter-input {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
